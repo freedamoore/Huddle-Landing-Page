@@ -1,3 +1,5 @@
+My solution to the below challenge. Preview live here https://freedamoore.github.io/Huddle-Landing-Page/
+
 # Frontend Mentor - Huddle landing page with single introductory section
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)

@@ -23,6 +23,8 @@ main {
 }
 
 button {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+  background-color: white;
   color: hsl(257, 40%, 49%);
   font-family: 'Poppins';
   font-weight: 600;
@@ -84,6 +86,7 @@ button {
 }
 
 .fab {
+  color: white;
   padding: 10px;
 }
 

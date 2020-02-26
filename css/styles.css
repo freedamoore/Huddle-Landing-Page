@@ -1,65 +1,122 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: hsl(257, 40%, 49%);
   background-image: url("../images/bg-desktop.svg");
   color: white;
   font-family: 'Open Sans';
-    /* padding: 3rem; */
 }
 
-header{
-  padding: 3rem;
+header {
+  padding: 3rem 4rem;
 }
 
-main{
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  margin: 3rem;
-}
-
-section{
-  /* align-self: center; */
-  /* margin: 3rem; */
+  margin: 2rem 4rem 1rem 4rem;
 }
 
 button {
-  padding: 10px 32px;
-  border: none;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-
-.section-img img{
-  /* width: 100%; */
-}
-
-.section-txt{
-  padding: 60px;
-}
-
-.section-txt p{
-  margin-top: 20px;
-}
-
-.heading{
+  color: hsl(257, 40%, 49%);
   font-family: 'Poppins';
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 0.6px;
+  padding: 0.8rem 3.5rem;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
 }
 
-.social{
+.logo-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.section-img {
+  width: 55%
+}
+
+.section-img img {
+  width: 100%;
+  height: auto;
+}
+
+.section-txt {
+  padding: 3rem 0 0 3rem;
+  width: 45%;
+  line-height: 1.6;
+}
+
+.section-txt p {
+  margin-top: 20px;
+  letter-spacing: 0.6px
+}
+
+.heading {
+  font-family: 'Poppins';
+  font-size: 2.1em;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.social {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-right: 3rem;
 }
-.fab{
-  padding: 2px;
-  /* border: 1px white solid;
-      border-radius: 50%; */
+
+.social-border {
+  border: 1px white solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.fab {
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 15px;
+}
+
+.attribution a {
+  color: #BC4FBA;
+  /* hsl(228, 45%, 4#BC4FBA;/*4%);*/
+}
+
+@media only screen and (max-width: 1100px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-img {
+    width: 100%
+  }
+
+  .section-txt {
+    padding: 3rem 0;
+    width: 100%;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+    margin-right: 0;
+  }
 }

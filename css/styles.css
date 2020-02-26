@@ -94,7 +94,7 @@ button {
 }
 
 .attribution a {
-  color: #BC4FBA;
+  color: #FBB977;
   /* hsl(228, 45%, 4#BC4FBA;/*4%);*/
 }
 
@@ -118,5 +118,15 @@ button {
   .social {
     justify-content: center;
     margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 2rem;
+  }
+
+  main {
+    margin: 2rem;
   }
 }
